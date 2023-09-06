@@ -1,0 +1,367 @@
+
+***SUMMARY***SUMMARY***SUMMARY***SUMMARY***SUMMARY***
+
+Simulation:         Apartment
+Version:            2022.2.0803
+Mode:               Steering
+Total Occupants:    205
+
+
+Completion Times for All Occupants (s):
+  Min:               10.6 "00021"
+  Max:              175.0 "00015"
+  Average:           70.1
+  StdDev:            34.4
+
+Completion Times by Behavior (s):
+       Behavior	Count	  Min	Min_Name	  Max	Max_Name	  Avg	StdDev
+     Behavior01	  204	 10.6	 "00021"	175.0	 "00015"	 69.8	  34.3
+  Goto Any Exit	    1	126.5	 "00065"	126.5	 "00065"	126.5	   0.0
+*all behaviors*	  205	 10.6	 "00021"	175.0	 "00015"	 70.1	  34.4
+
+Completion Times by Profile (s):
+       Profile	Count	 Min	Min_Name	  Max	Max_Name	 Avg	StdDev
+       Default	  205	10.6	 "00021"	175.0	 "00015"	70.1	  34.4
+*all profiles*	  205	10.6	 "00021"	175.0	 "00015"	70.1	  34.4
+
+Travel Distances for All Occupants (m):
+  Min:                9.2 "00032"
+  Max:               82.9 "00011"
+  Average:           51.9
+  StdDev:            16.8
+
+Movement Distance by Behavior (m):
+       Behavior	Count	 Min	Min_Name	 Max	Max_Name	 Avg	StdDev
+     Behavior01	  204	 9.2	 "00032"	82.9	 "00011"	51.8	  16.8
+  Goto Any Exit	    1	67.6	 "00065"	67.6	 "00065"	67.6	   0.0
+*all behaviors*	  205	 9.2	 "00032"	82.9	 "00011"	51.9	  16.8
+
+Movement Distance by Profile (m):
+       Profile	Count	Min	Min_Name	 Max	Max_Name	 Avg	StdDev
+       Default	  205	9.2	 "00032"	82.9	 "00011"	51.9	  16.8
+*all profiles*	  205	9.2	 "00032"	82.9	 "00011"	51.9	  16.8
+
+[Components] All:   310
+[Components] Doors: 166
+Triangles:          1138
+Startup Time:       0.1s
+CPU Time:           4.4s
+
+Door Flow Rates:
+                        Door	First_In	Last_Out	Last_Out_Name	Total_Use	 Flow_Avg
+                            	     (s)	     (s)	             	   (pers)	 (pers/s)
+        Floor 0.0 ft->Door01	    17.4	    96.1	        00029	       38	     0.48
+        Floor 0.0 ft->Door02	    19.7	   107.6	        00065	       35	     0.40
+              Stair01 door 1	    15.2	    90.7	        00029	       38	     0.50
+              Stair01 door 2	    11.9	    82.1	        00029	       38	     0.54
+              Stair02 door 1	     9.9	    76.2	        00029	       38	     0.57
+              Stair02 door 2	     6.6	    65.9	        00029	       38	     0.64
+              Stair05 door 1	    16.9	   103.0	        00065	       35	     0.41
+              Stair05 door 2	    12.7	    97.9	        00065	       35	     0.41
+              Stair06 door 1	    10.1	    95.7	        00065	       35	     0.41
+              Stair06 door 2	     5.8	    91.6	        00065	       35	     0.41
+            Stair09_1 door 1	     6.5	    96.2	        00015	       92	     1.03
+            Stair09_1 door 2	    11.9	   115.6	        00015	       92	     0.89
+        Floor 0.0 ft->Door04	    10.6	   175.0	        00015	      150	     0.91
+      Floor 0.0 ft->Door04_1	    16.4	   131.5	        00033	       55	     0.48
+        Floor 0.0 ft->Door05	     3.1	    67.6	        00025	        3	     0.05
+        Floor 0.0 ft->Door06	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door07	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door08	     2.2	    26.0	        00019	        4	     0.17
+        Floor 0.0 ft->Door09	     3.3	    11.0	        00019	        2	     0.26
+        Floor 0.0 ft->Door10	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door11	     5.8	     9.4	        00011	        2	     0.56
+        Floor 0.0 ft->Door12	     3.1	     3.1	        00011	        1	         
+        Floor 0.0 ft->Door13	     2.6	    40.1	        00116	        4	     0.11
+        Floor 0.0 ft->Door14	     3.8	    24.6	        00035	        6	     0.29
+        Floor 0.0 ft->Door15	    11.0	    15.9	        00035	        2	     0.41
+        Floor 0.0 ft->Door16	     7.4	    10.8	        00035	        2	     0.59
+        Floor 0.0 ft->Door17	     4.3	     9.5	        00005	        3	     0.57
+        Floor 0.0 ft->Door18	     7.6	    26.9	        00033	        2	     0.10
+        Floor 0.0 ft->Door19	     2.2	     9.9	        00033	        2	     0.26
+        Floor 0.0 ft->Door20	     5.2	    18.7	        00033	        2	     0.15
+        Floor 0.0 ft->Door21	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door22	     6.8	     9.4	        00031	        2	     0.77
+        Floor 0.0 ft->Door23	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door24	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door25	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door26	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door27	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door28	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door29	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door30	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door31	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door32	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door33	     3.2	    13.6	        00040	        3	     0.29
+        Floor 0.0 ft->Door34	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door35	     5.3	     5.3	        00040	        1	         
+        Floor 0.0 ft->Door36	     6.2	    18.9	        00018	        5	     0.39
+        Floor 0.0 ft->Door37	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door38	     3.9	     5.6	        00018	        2	     1.18
+        Floor 0.0 ft->Door39	     1.3	    12.6	        00018	        4	     0.36
+        Floor 0.0 ft->Door40	     7.3	    13.3	        00026	        2	     0.34
+        Floor 0.0 ft->Door41	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door42	     2.6	     5.4	        00026	        2	     0.70
+        Floor 0.0 ft->Door43	     6.1	    17.6	        00028	        4	     0.35
+        Floor 0.0 ft->Door44	     3.1	    12.8	        00028	        4	     0.41
+        Floor 0.0 ft->Door45	     2.4	     4.6	        00028	        2	     0.91
+        Floor 0.0 ft->Door56	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door57	     1.1	    10.8	        00004	        8	     0.83
+        Floor 0.0 ft->Door58	     1.6	     3.2	        00006	        2	     1.23
+        Floor 0.0 ft->Door59	     0.0	     0.0	             	        0	         
+        Floor 0.0 ft->Door60	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door01_1	     5.5	    60.4	        00129	       23	     0.42
+  Floor 9.84252 ft->Door02_1	     4.5	    43.0	        00086	       15	     0.39
+              Stair03 door 1	    17.9	    60.5	        00029	       15	     0.35
+              Stair03 door 2	    13.2	    54.2	        00029	       15	     0.37
+              Stair04 door 1	    10.4	    50.8	        00029	       15	     0.37
+              Stair04 door 2	     5.8	    44.1	        00029	       15	     0.39
+              Stair07 door 1	    13.7	    89.3	        00065	       21	     0.28
+              Stair07 door 2	     9.6	    85.2	        00065	       21	     0.28
+              Stair08 door 1	     7.0	    82.8	        00065	       21	     0.28
+              Stair08 door 2	     2.9	    78.8	        00065	       21	     0.28
+              Stair09 door 1	     3.1	    55.0	        00015	       42	     0.81
+              Stair09 door 2	    11.0	    74.3	        00015	       42	     0.66
+  Floor 9.84252 ft->Door05_1	     2.8	    10.4	        00125	        4	     0.52
+  Floor 9.84252 ft->Door07_1	     4.2	     6.1	        00127	        2	     1.04
+  Floor 9.84252 ft->Door06_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door08_1	     3.2	    11.3	        00020	        4	     0.49
+  Floor 9.84252 ft->Door10_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door09_1	     3.3	     4.7	        00019	        2	     1.40
+  Floor 9.84252 ft->Door12_1	     1.8	     1.8	        00011	        1	         
+  Floor 9.84252 ft->Door11_1	     5.1	     6.2	        00012	        2	     1.78
+  Floor 9.84252 ft->Door13_1	     4.9	     9.5	        00012	        3	     0.66
+  Floor 9.84252 ft->Door36_1	     2.4	    12.8	        00015	        3	     0.29
+  Floor 9.84252 ft->Door37_1	     3.5	     9.0	        00018	        2	     0.36
+  Floor 9.84252 ft->Door38_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door39_1	     1.4	     3.8	        00015	        2	     0.82
+  Floor 9.84252 ft->Door41_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door40_1	     3.3	     8.0	        00026	        4	     0.86
+  Floor 9.84252 ft->Door42_1	     2.4	     3.6	        00026	        2	     1.70
+  Floor 9.84252 ft->Door43_1	     5.2	    23.4	        00027	        6	     0.33
+  Floor 9.84252 ft->Door44_1	     2.7	    15.1	        00028	        6	     0.48
+  Floor 9.84252 ft->Door45_1	     2.8	     4.5	        00028	        2	     1.21
+  Floor 9.84252 ft->Door17_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door14_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door15_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door16_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door19_1	     1.9	     5.6	        00033	        4	     1.10
+  Floor 9.84252 ft->Door20_1	     5.9	     9.5	        00033	        4	     1.10
+  Floor 9.84252 ft->Door18_1	     9.3	    13.0	        00033	        4	     1.08
+  Floor 9.84252 ft->Door22_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door23_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door21_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door25_1	     3.8	    16.5	        00076	        3	     0.24
+  Floor 9.84252 ft->Door28_1	     2.6	    12.1	        00076	        2	     0.21
+  Floor 9.84252 ft->Door24_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door27_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door26_1	     3.7	     3.7	        00077	        1	         
+  Floor 9.84252 ft->Door31_1	     2.2	     2.2	        00074	        1	         
+  Floor 9.84252 ft->Door30_1	     6.0	     6.0	        00074	        1	         
+  Floor 9.84252 ft->Door29_1	     6.8	     9.2	        00074	        2	     0.82
+  Floor 9.84252 ft->Door33_1	     3.0	     8.8	        00040	        3	     0.52
+  Floor 9.84252 ft->Door35_1	     3.1	     3.1	        00040	        1	         
+  Floor 9.84252 ft->Door32_1	     0.0	     0.0	             	        0	         
+  Floor 9.84252 ft->Door34_1	     0.0	     0.0	             	        0	         
+    Floor 9.84252 ft->Door51	     4.3	     4.3	        00004	        1	         
+    Floor 9.84252 ft->Door52	     2.2	     6.5	        00115	        4	     0.93
+    Floor 9.84252 ft->Door53	     3.2	    40.0	        00010	       22	     0.60
+    Floor 9.84252 ft->Door54	     0.0	     0.0	             	        0	         
+    Floor 9.84252 ft->Door55	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door01_2	     4.6	    42.4	        00029	       15	     0.40
+Floor 19.685039 ft->Door02_2	     1.4	    77.6	        00065	       21	     0.28
+Floor 19.685039 ft->Door05_2	     3.8	     5.9	        00023	        2	     0.93
+Floor 19.685039 ft->Door07_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door06_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door08_2	     2.1	     9.3	        00019	        3	     0.42
+Floor 19.685039 ft->Door10_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door09_2	     2.5	     4.1	        00019	        2	     1.23
+Floor 19.685039 ft->Door12_2	     2.3	     2.3	        00011	        1	         
+Floor 19.685039 ft->Door11_2	     6.8	     9.9	        00012	        2	     0.63
+Floor 19.685039 ft->Door13_2	     3.2	    15.6	        00012	        3	     0.24
+Floor 19.685039 ft->Door36_2	     2.9	    18.8	        00015	        3	     0.19
+Floor 19.685039 ft->Door37_2	     3.1	     5.0	        00018	        2	     1.07
+Floor 19.685039 ft->Door38_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door39_2	     3.1	     6.1	        00015	        2	     0.66
+Floor 19.685039 ft->Door41_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door40_2	     7.9	     9.9	        00026	        2	     0.99
+Floor 19.685039 ft->Door42_2	     2.7	     3.9	        00026	        2	     1.74
+Floor 19.685039 ft->Door43_2	    11.7	    15.6	        00028	        3	     0.76
+Floor 19.685039 ft->Door44_2	     5.6	    10.4	        00028	        3	     0.62
+Floor 19.685039 ft->Door45_2	     3.8	     3.8	        00028	        1	         
+Floor 19.685039 ft->Door17_2	    18.2	    31.4	        00036	        2	     0.15
+Floor 19.685039 ft->Door14_2	     2.2	     2.2	        00039	        1	         
+Floor 19.685039 ft->Door15_2	    14.5	    24.9	        00036	        2	     0.19
+Floor 19.685039 ft->Door16_2	     9.8	    16.8	        00036	        2	     0.29
+Floor 19.685039 ft->Door19_2	     3.9	     8.4	        00033	        2	     0.44
+Floor 19.685039 ft->Door20_2	    10.3	    15.8	        00033	        2	     0.37
+Floor 19.685039 ft->Door18_2	    15.8	    22.0	        00033	        2	     0.32
+Floor 19.685039 ft->Door22_2	     2.4	     3.3	        00031	        2	         
+Floor 19.685039 ft->Door23_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door21_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door25_2	     3.5	    70.6	        00065	        5	     0.07
+Floor 19.685039 ft->Door28_2	     2.1	    68.7	        00065	        5	     0.08
+Floor 19.685039 ft->Door24_2	    27.5	    63.6	        00065	        3	     0.08
+Floor 19.685039 ft->Door27_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door26_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door31_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door30_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door29_2	     3.5	    56.1	        00065	        2	     0.04
+Floor 19.685039 ft->Door33_2	     4.5	     7.7	        00040	        3	     0.92
+Floor 19.685039 ft->Door35_2	     2.7	     2.7	        00040	        1	         
+Floor 19.685039 ft->Door32_2	     0.0	     0.0	             	        0	         
+Floor 19.685039 ft->Door34_2	     0.0	     0.0	             	        0	         
+  Floor 19.685039 ft->Door46	     0.0	     0.0	             	        0	         
+  Floor 19.685039 ft->Door47	     0.0	     0.0	             	        0	         
+  Floor 19.685039 ft->Door48	     1.6	    22.3	        00057	       15	     0.73
+  Floor 19.685039 ft->Door49	     0.0	     0.0	             	        0	         
+  Floor 19.685039 ft->Door50	     0.0	     0.0	             	        0	         
+
+Room Usage:
+                              Room	First_In	Last_Out	Last_Out_Name	Total_Use
+                                  	     (s)	     (s)	             	   (pers)
+              Floor 0.0 ft->Room02	     1.1	   175.0	        00015	      205
+              Floor 0.0 ft->Room04	    15.2	    96.1	        00029	       38
+            Floor 0.0 ft->Room04_1	    16.9	   107.6	        00065	       35
+            Floor 0.0 ft->Room05_1	     0.0	     0.0	             	        0
+          Floor 0.0 ft->Room05_1_1	     0.0	    40.1	        00116	        4
+              Floor 0.0 ft->Room08	     0.0	     0.0	             	        0
+            Floor 0.0 ft->Room08_1	     2.2	    18.7	        00033	        2
+          Floor 0.0 ft->Room08_1_1	     0.0	    24.6	        00035	        6
+            Floor 0.0 ft->Room08_1	     0.0	     0.0	             	        0
+          Floor 0.0 ft->Room08_1_1	     0.0	     0.0	             	        0
+        Floor 0.0 ft->Room08_1_1_1	     0.0	     5.3	        00040	        1
+        Floor 0.0 ft->Room05_1_1_1	     0.0	    12.6	        00018	        4
+          Floor 0.0 ft->Room05_1_1	     0.0	     5.4	        00026	        2
+            Floor 0.0 ft->Room05_1	     0.0	     4.6	        00028	        2
+              Floor 0.0 ft->Room05	     0.0	    67.6	        00025	        3
+              Floor 0.0 ft->Room12	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room13	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room14	     0.0	    11.0	        00019	        2
+              Floor 0.0 ft->Room15	     0.0	    26.0	        00019	        4
+              Floor 0.0 ft->Room16	     0.0	     3.1	        00011	        1
+              Floor 0.0 ft->Room17	     0.0	     9.4	        00011	        2
+              Floor 0.0 ft->Room18	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room19	     0.0	     9.4	        00031	        2
+              Floor 0.0 ft->Room20	     0.0	    10.8	        00035	        2
+              Floor 0.0 ft->Room21	     7.4	    15.9	        00035	        2
+              Floor 0.0 ft->Room22	     0.0	     9.9	        00033	        2
+              Floor 0.0 ft->Room23	     5.2	    26.9	        00033	        2
+              Floor 0.0 ft->Room24	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room25	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room26	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room27	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room28	     0.0	    13.6	        00040	        3
+              Floor 0.0 ft->Room29	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room30	     0.0	    18.9	        00018	        5
+              Floor 0.0 ft->Room31	     0.0	     5.6	        00018	        2
+              Floor 0.0 ft->Room32	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room33	     2.6	    13.3	        00026	        2
+              Floor 0.0 ft->Room34	     3.1	    17.6	        00028	        4
+              Floor 0.0 ft->Room35	     0.0	    12.8	        00028	        4
+            Floor 0.0 ft->Room04_1	     9.9	    82.1	        00029	       38
+             Floor 0.0 ft->Stair01	    11.9	    90.7	        00029	       38
+             Floor 0.0 ft->Stair02	     6.6	    76.2	        00029	       38
+          Floor 0.0 ft->Room04_1_1	    10.1	    97.9	        00065	       35
+             Floor 0.0 ft->Stair05	    12.7	   103.0	        00065	       35
+             Floor 0.0 ft->Stair06	     5.8	    95.7	        00065	       35
+           Floor 0.0 ft->Stair09_1	     6.5	   115.6	        00015	       92
+              Floor 0.0 ft->Room44	     0.0	    10.8	        00004	       10
+              Floor 0.0 ft->Room45	     0.0	     0.0	             	        0
+              Floor 0.0 ft->Room46	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room34_1	     2.7	    23.4	        00027	        6
+        Floor 9.84252 ft->Room04_1	     5.5	    65.9	        00029	       38
+        Floor 9.84252 ft->Room14_1	     0.0	     4.7	        00019	        2
+        Floor 9.84252 ft->Room05_1	     0.0	    10.4	        00125	        4
+        Floor 9.84252 ft->Room13_1	     0.0	     6.1	        00127	        2
+        Floor 9.84252 ft->Room12_1	     0.0	     0.0	             	        0
+    Floor 9.84252 ft->Room08_1_1_1	     0.0	     2.2	        00074	        1
+        Floor 9.84252 ft->Room27_1	     0.0	     9.2	        00074	        2
+        Floor 9.84252 ft->Room26_1	     2.2	     6.0	        00074	        1
+      Floor 9.84252 ft->Room04_1_1	     4.5	    91.6	        00065	       35
+      Floor 9.84252 ft->Room08_1_1	     0.0	     3.7	        00077	        1
+        Floor 9.84252 ft->Room25_1	     0.0	    12.1	        00076	        2
+        Floor 9.84252 ft->Room24_1	     2.6	    16.5	        00076	        3
+      Floor 9.84252 ft->Room08_1_1	     1.9	     9.5	        00033	        4
+        Floor 9.84252 ft->Room19_1	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room08_1	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room17_1	     0.0	     6.2	        00012	        2
+        Floor 9.84252 ft->Room16_1	     0.0	     1.8	        00011	        1
+    Floor 9.84252 ft->Room05_1_1_1	     0.0	     9.5	        00012	        3
+    Floor 9.84252 ft->Room08_1_1_1	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room23_1	     5.9	    13.0	        00033	        4
+        Floor 9.84252 ft->Room28_1	     0.0	     8.8	        00040	        3
+        Floor 9.84252 ft->Room29_1	     0.0	     0.0	             	        0
+  Floor 9.84252 ft->Room08_1_1_1_1	     0.0	     3.1	        00040	        1
+        Floor 9.84252 ft->Room31_1	     0.0	     9.0	        00018	        2
+        Floor 9.84252 ft->Room18_1	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room22_1	     0.0	     5.6	        00033	        4
+        Floor 9.84252 ft->Room20_1	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room21_1	     0.0	     0.0	             	        0
+  Floor 9.84252 ft->Room05_1_1_1_1	     0.0	     3.8	        00015	        2
+        Floor 9.84252 ft->Room30_1	     0.0	    12.8	        00015	        3
+        Floor 9.84252 ft->Room32_1	     0.0	     0.0	             	        0
+    Floor 9.84252 ft->Room05_1_1_1	     0.0	     3.6	        00026	        2
+        Floor 9.84252 ft->Room33_1	     0.0	     8.0	        00026	        4
+        Floor 9.84252 ft->Room02_1	     0.0	    96.2	        00015	      130
+      Floor 9.84252 ft->Room05_1_1	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room15_1	     0.0	    11.3	        00020	        4
+        Floor 9.84252 ft->Room35_1	     0.0	    15.1	        00028	        6
+      Floor 9.84252 ft->Room05_1_1	     0.0	     4.5	        00028	        2
+      Floor 9.84252 ft->Room04_1_1	    10.4	    54.2	        00029	       15
+         Floor 9.84252 ft->Stair03	    13.2	    60.5	        00029	       15
+         Floor 9.84252 ft->Stair04	     5.8	    50.8	        00029	       15
+    Floor 9.84252 ft->Room04_1_1_1	     7.0	    85.2	        00065	       21
+         Floor 9.84252 ft->Stair07	     9.6	    89.3	        00065	       21
+         Floor 9.84252 ft->Stair08	     2.9	    82.8	        00065	       21
+         Floor 9.84252 ft->Stair09	     3.1	    74.3	        00015	       42
+        Floor 9.84252 ft->Room44_1	     0.0	    40.0	        00010	       27
+        Floor 9.84252 ft->Room45_1	     0.0	     0.0	             	        0
+        Floor 9.84252 ft->Room46_1	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room34_2	     5.6	    15.6	        00028	        3
+      Floor 19.685039 ft->Room04_2	     4.6	    44.1	        00029	       15
+      Floor 19.685039 ft->Room14_2	     0.0	     4.1	        00019	        2
+      Floor 19.685039 ft->Room05_2	     0.0	     5.9	        00023	        2
+      Floor 19.685039 ft->Room13_2	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room12_2	     0.0	     0.0	             	        0
+  Floor 19.685039 ft->Room08_1_1_2	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room27_2	     0.0	    56.1	        00065	        2
+      Floor 19.685039 ft->Room26_2	     0.0	     0.0	             	        0
+    Floor 19.685039 ft->Room04_1_2	     1.4	    78.8	        00065	       21
+    Floor 19.685039 ft->Room08_1_2	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room25_2	     0.0	    68.7	        00065	        5
+      Floor 19.685039 ft->Room24_2	     2.1	    70.6	        00065	        5
+    Floor 19.685039 ft->Room08_1_2	     3.9	    15.8	        00033	        2
+      Floor 19.685039 ft->Room19_2	     0.0	     3.3	        00031	        2
+      Floor 19.685039 ft->Room08_2	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room17_2	     0.0	     9.9	        00012	        2
+      Floor 19.685039 ft->Room16_2	     0.0	     2.3	        00011	        1
+  Floor 19.685039 ft->Room05_1_1_2	     0.0	    15.6	        00012	        3
+  Floor 19.685039 ft->Room08_1_1_2	     0.0	    31.4	        00036	        3
+      Floor 19.685039 ft->Room23_2	    10.3	    22.0	        00033	        2
+      Floor 19.685039 ft->Room28_2	     0.0	     7.7	        00040	        3
+      Floor 19.685039 ft->Room29_2	     0.0	     0.0	             	        0
+Floor 19.685039 ft->Room08_1_1_1_2	     0.0	     2.7	        00040	        1
+      Floor 19.685039 ft->Room31_2	     0.0	     5.0	        00018	        2
+      Floor 19.685039 ft->Room18_2	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room22_2	     0.0	     8.4	        00033	        2
+      Floor 19.685039 ft->Room20_2	     0.0	    16.8	        00036	        2
+      Floor 19.685039 ft->Room21_2	     9.8	    24.9	        00036	        2
+Floor 19.685039 ft->Room05_1_1_1_2	     0.0	     6.1	        00015	        2
+      Floor 19.685039 ft->Room30_2	     0.0	    18.8	        00015	        3
+      Floor 19.685039 ft->Room32_2	     0.0	     0.0	             	        0
+  Floor 19.685039 ft->Room05_1_1_2	     0.0	     3.9	        00026	        2
+      Floor 19.685039 ft->Room33_2	     2.7	     9.9	        00026	        2
+      Floor 19.685039 ft->Room02_2	     0.0	    77.6	        00065	       78
+    Floor 19.685039 ft->Room05_1_2	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room15_2	     0.0	     9.3	        00019	        3
+      Floor 19.685039 ft->Room35_2	     0.0	    10.4	        00028	        3
+    Floor 19.685039 ft->Room05_1_2	     0.0	     3.8	        00028	        1
+      Floor 19.685039 ft->Room44_2	     0.0	    22.3	        00057	       15
+      Floor 19.685039 ft->Room45_2	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room46_2	     0.0	     0.0	             	        0
+        Floor 19.685039 ft->Room48	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room48_1	     0.0	     0.0	             	        0
+      Floor 19.685039 ft->Room48_1	     0.0	     0.0	             	        0
+    Floor 19.685039 ft->Room48_1_1	     0.0	     0.0	             	        0
+

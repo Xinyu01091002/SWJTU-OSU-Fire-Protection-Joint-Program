@@ -1,0 +1,5 @@
+Version=1
+AnimFile=Apartment.pfd
+GeomAnimFile=Apartment.pfg
+MeshFile=Apartment.txt
+ViewsFile=Apartment_views.json

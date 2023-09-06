@@ -1,0 +1,28 @@
+FUNCTION                       RUN TIME      PERCENT     COUNT     
+-----------------------------  ------------  ----------  ----------
+STEERING CALC                       2.406 s  ( 53.55 %)        7011
+UPDATE NODES                        0.516 s  ( 11.48 %)        7012
+WRITE OUTPUT                        0.378 s  (  8.42 %)        7013
+UPDATE LOCATION                     0.346 s  (  7.71 %)        7011
+UPDATE AI                           0.323 s  (  7.18 %)        7011
+UPDATE OCC FINDER                   0.156 s  (  3.47 %)       14022
+STARTUP                             0.150 s  (  3.33 %)           1
+DTD                                 0.079 s  (  1.76 %)         278
+WRITE SNAPSHOT                      0.040 s  (  0.88 %)        7011
+SHRINK INTERNAL EDGES               0.018 s  (  0.40 %)           1
+SCRIPT                              0.012 s  (  0.26 %)        7013
+CYCLE BREAKER                       0.006 s  (  0.14 %)         350
+UPDATE ELEVATORS                    0.004 s  (  0.08 %)        7011
+INIT                                0.003 s  (  0.07 %)           1
+UPDATE AE TEAMS                     0.003 s  (  0.07 %)        7011
+UPDATE OCC GROUPS                   0.002 s  (  0.04 %)        7011
+UPDATE DOORS                        0.002 s  (  0.04 %)        7011
+UPDATE OCC SOURCES                  0.001 s  (  0.03 %)        7011
+CALLBACK                            0.001 s  (  0.03 %)        7012
+UPDATE OCCTARGET RESERVATIONS       0.001 s  (  0.03 %)        7011
+UPDATE TRIMMED EDGES                0.001 s  (  0.03 %)        7012
+UPDATE DENSITY FIELD                0.001 s  (  0.02 %)        7012
+UPDATE SUBUNITS                     0.001 s  (  0.02 %)        7011
+RENDERER                            0.001 s  (  0.01 %)        7012
+-----------------------------  ------------  ----------  ----------
+SIMULATION                          4.493 s  (100.00 %)           1
